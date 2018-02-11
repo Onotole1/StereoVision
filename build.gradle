@@ -25,3 +25,14 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    applicationId = 'com.spitchenko.anatoly.stereovision'
+    compileSdkVersion = 27
+    targetSdkVersion = 27
+    minSdkVersion = 21
+    versionCode = 1
+    versionName = "1.0"
+    supportLibVersion = "27.0.2"
+    buildToolsVersion = "27.0.3"
+}
